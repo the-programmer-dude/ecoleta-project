@@ -23,7 +23,7 @@ NLW is a week were you are going to learn, code and do some challenges
 > cd ecoleta-project
 
 ```
-# How to start each service 🏁
+# How to start on each service 🏁
 
 Note: you are going to need Node.js, Yarn(or npm) and git installed to run the backend, frontend and mobile
 
