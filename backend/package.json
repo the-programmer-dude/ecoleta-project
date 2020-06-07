@@ -1,0 +1,36 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "main": "src/app.ts",
+  "license": "MIT",
+  "scripts": {
+    "dev:start": "ts-node-dev --transpileOnly --ignore-watch node_modules src/app.ts",
+    "knex:migrate": "knex --knexfile knexfile.ts migrate:latest",
+    "knex:seed": "knex --knexfile knexfile.ts seed:run"
+  },
+  "dependencies": {
+    "@types/cors": "^2.8.6",
+    "@types/express": "^4.17.6",
+    "@types/node": "^14.0.6",
+    "celebrate": "^12.1.1",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "knex": "^0.21.1",
+    "logkitty": "^0.7.1",
+    "mongoose": "^5.9.16",
+    "multer": "^1.4.2",
+    "sqlite3": "^4.2.0",
+    "websocket-extensions": "^0.1.4"
+  },
+  "devDependencies": {
+    "@types/hapi__joi": "^17.1.2",
+    "@types/multer": "^1.4.3",
+    "mysql2": "^2.1.0",
+    "nodemon": "^2.0.4",
+    "sequelize": "^5.21.11",
+    "ts-node": "^8.10.2",
+    "ts-node-dev": "^1.0.0-pre.44",
+    "typescript": "^3.9.3"
+  }
+}
