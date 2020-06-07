@@ -1,14 +1,14 @@
-import 'react-native-gesture-handler'
-import React from 'react'
+import 'react-native-gesture-handler';
+import React from 'react';
 
-import { NavigationContainer } from '@react-navigation/native'
-import { createStackNavigator } from '@react-navigation/stack'
+import { NavigationContainer } from '@react-navigation/native';
+import { createStackNavigator } from '@react-navigation/stack';
 
-import Homepage from './pages/Home'
-import Points from './pages/Points'
-import Details from './pages/Details'
+import Homepage from './pages/Home';
+import Points from './pages/Points';
+import Details from './pages/Details';
 
-const Stack = createStackNavigator()
+const Stack = createStackNavigator();
 
 const NavConfig = () => (
     <NavigationContainer>
@@ -25,6 +25,6 @@ const NavConfig = () => (
             <Stack.Screen name="Details" component={Details}/>
         </Stack.Navigator>
     </NavigationContainer>
-)
+);
 
-export default NavConfig
+export default NavConfig;
