@@ -73,8 +73,6 @@ Note: you are going to need Node.js, Yarn(or npm) and git installed to run the b
 
 ```
 
-If you are having trouble to start the server, you can check [this](https://github.com/Rocketseat/expo-common-issues) link
-
 # How to start expo
 
 ## How to run expo project on a physical device
@@ -95,6 +93,9 @@ If you are having trouble to start the server, you can check [this](https://gith
 
 But if you can't run expo on the physical device and on the emulator...<br/>
 You can create your application on [Expo Snack](https://snack.expo.io/)
+
+<hr />
+If you are having trouble with expo, you can check [this](https://github.com/Rocketseat/expo-common-issues) link
 
 <hr />
 
